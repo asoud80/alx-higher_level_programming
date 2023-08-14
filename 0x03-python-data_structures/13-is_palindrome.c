@@ -3,7 +3,6 @@
 listint_t *reverse_listint(listint_t **head);
 int is_palindrome(listint_t **head);
 
-
 /**
  * reverse_listint - it will reverse Singly Linked Listint_t List
  *
@@ -26,7 +25,6 @@ listint_t *reverse_listint(listint_t **head)
 	*head = prev;
 	return (*head);
 }
-
 
 /**
  * is_palindrome - to check whether Singly Linked List Is Palindrome or not
