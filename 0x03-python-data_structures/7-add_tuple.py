@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-def add_tuple(tuple_x =(), tuple_y =()):
-
+def add_tuple(tuple_x=(), tuple_y=()):
     if len(tuple_x) < 2:
         if len(tuple_x) == 0:
             tuple_x = 0, 0
