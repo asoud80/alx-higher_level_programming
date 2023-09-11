@@ -1,13 +1,13 @@
 #!/usr/bin/python3
-""" for Creating Mylist class """
+"""
+Write a function that returns True if the object is exactly an
+instance of the specified class ; otherwise False.
+        *Prototype: def is_same_class(obj, a_class):
+        *You are not allowed to import any module
+"""
 
 
-class MyList(list):
-    """
-    MyList class that inherits from list
-    """
-    def print_sorted(self):
-        """
-        Prints the list in sorted order
-        """
-        print(sorted(self))
+def is_same_class(obj, a_class):
+    """This fucntion return True if the object is exactly an instance of the
+       specified class"""
+    return type(obj) is a_class
