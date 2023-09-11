@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-""" creating a function that adds new attributes to an object """
+""" for creating a functi n"""
 
 
-def add_attribute(obj, name, value):
-    """ add_attribute function """
-    if not hasattr(obj, "__dict__"):
-        raise TypeError("can't add new attribute")
-    setattr(obj, name, value)
+def lookup(obj):
+    """
+    Returns the list of available attributes and methods of an object
+    """
+    return dir(obj)
