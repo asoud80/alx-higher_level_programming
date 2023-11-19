@@ -3,6 +3,10 @@
 """to Lists All States With Name Starting with N
 (upper N) from the database hbtn_0e_0_usa"""
 
+#!/usr/bin/python3
+"""lists all states with a name starting with N
+(upper N) from the database hbtn_0e_0_usa"""
+
 if __name__ == '__main__':
 
     import MySQLdb
